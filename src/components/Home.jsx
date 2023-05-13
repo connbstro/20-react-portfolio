@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import me from "../assets/me.png";
 import { Link } from "react-scroll";
@@ -18,7 +19,7 @@ const Home = () => {
           </p>
           <div>
             <Link
-              to="about"
+              to="/about"
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-gray-900 to-[#fad1a1] cursor-pointer"

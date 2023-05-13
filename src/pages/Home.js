@@ -1,11 +1,9 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import me from "../assets/me.png";
-import { Link } from "react-scroll";
-import Contact from "../components/Contact";
+// import { Link } from "react-scroll";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import Skills from "../components/Skills";
-import Works from "../components/Works";
 
 const Home = () => {
   return (
@@ -30,9 +28,9 @@ const Home = () => {
                 className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-gray-900 to-[#fad1a1] cursor-pointer"
               >
                 About Me
-                <span className="group-hover:rotate-90 duration-300">
+                {/* <span className="group-hover:rotate-90 duration-300">
                   <HiArrowNarrowRight size={25} className="ml-3" />
-                </span>
+                </span> */}
               </Link>
             </div>
           </div>
