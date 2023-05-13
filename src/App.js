@@ -1,19 +1,22 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Skills from "./components/Skills";
-import Works from "./components/Works";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import Works from "./pages/Works";
+import Skills from "./pages/Skills";
 
-function App() { 
+function App() {
   return (
     <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Works />
-      <Contact />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/works" element={<Works />} />
+          <Route path="/skills" element={<Skills />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

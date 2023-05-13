@@ -21,7 +21,7 @@ const Home = () => {
               to="about"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-[#39564b] to-[#fad1a1] cursor-pointer"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-gray-900 to-[#fad1a1] cursor-pointer"
             >
               About Me
               <span className="group-hover:rotate-90 duration-300">
