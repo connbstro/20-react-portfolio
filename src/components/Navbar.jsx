@@ -40,7 +40,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/works" smooth={true} duration={500}>
-            Work
+            Works
           </Link>
         </li>
         <li>
@@ -68,7 +68,7 @@ const Navbar = () => {
         <li className="py-6 text-4xl">
           {" "}
           <Link onClick={handleClick} to="/about" smooth={true} duration={500}>
-            About
+            About Me
           </Link>
         </li>
         <li className="py-6 text-4xl">
@@ -79,8 +79,8 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="/work" smooth={true} duration={500}>
-            Work
+          <Link onClick={handleClick} to="/works" smooth={true} duration={500}>
+            Works
           </Link>
         </li>
         <li className="py-6 text-4xl">
@@ -96,7 +96,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="/"
+              href="https://www.linkedin.com/in/connor-stroh-636a58276/"
             >
               Linkedin <FaLinkedin size={30} />
             </a>

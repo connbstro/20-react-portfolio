@@ -5,11 +5,11 @@ const Skills = () => {
   return (
     <div>
       <Navbar />
-      <div name="skills" className="w-full h-screen bg-[#0f141c] text-gray-300">
+      <div name="skills" className="w-full h-screen bg-[#0f141c] text-white">
         {/* Container */}
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
           <div className=" w-full flex justify-center items-center flex-col mb-7">
-            <p className="text-4xl font-bold inline border-b-4 border-white text-center ">
+            <p className="text-4xl font-bold inline border-b-4 border-[#fad1a1] text-center ">
               Skills
             </p>
             <p className="py-4 text-2xl">

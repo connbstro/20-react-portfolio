@@ -22,7 +22,7 @@ const Contact = () => {
       >
         <div className="flex flex-col max-w-[600px] w-full">
           <div className="pb-8 flex flex-col justify-center w-full h-full items-center">
-            <p className="text-4xl inline border-b-4 border-[#fad1a1] text-[#fad1a1]">
+            <p className="text-4xl inline border-b-4 border-[#fad1a1] text-white">
               Contact
             </p>
             <p className="text-white py-4">Send me a message!</p>
