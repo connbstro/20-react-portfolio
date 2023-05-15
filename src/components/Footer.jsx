@@ -1,45 +1,43 @@
 import React from "react";
 import {
-  FaBars,
-  FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-      <ul>
-        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+    <footer class="fixed bottom-0 left-0 z-20 w-full bg-[white] border-t border-[#fad1a1] shadow md:flex md:items-center md:justify-between md:p-4 dark:bg-gray-800">
+      <span class="text-sm text-white sm:text-center">
+        © copyright 2023 Connor Stroh
+      </span>
+      <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-white sm:mt-0">
+        <li>
+          <a
+            className="flex justify-between items-center w-full"
+            href="mailto:connbstro56@yahoo.com"
+          >
+            <HiOutlineMail size={30} />
+          </a>
+        </li>
+        <li>
           <a
             className="flex justify-between items-center w-full text-white"
             href="https://www.linkedin.com/in/connor-stroh-636a58276/"
           >
-            Linkedin <FaLinkedin size={30} />
+            <FaLinkedin size={30} />
           </a>
         </li>
-        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+        <li>
           <a
             className="flex justify-between items-center w-full text-white"
             href="https://github.com/connbstro"
           >
-            Github <FaGithub size={30} />
-          </a>
-        </li>
-        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fad1a1]">
-          <a
-            className="flex justify-between items-center w-full text-black"
-            href="mailto:connbstro56@yahoo.com"
-          >
-            Email <HiOutlineMail size={30} />
+            <FaGithub size={30} />
           </a>
         </li>
       </ul>
-    </div>
+    </footer>
   );
 };
 

@@ -98,8 +98,6 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
-
-      <Footer />
     </div>
   );
 };

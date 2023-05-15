@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Works from "./pages/Works";
 import Skills from "./pages/Skills";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/resume" element={<Skills />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }
