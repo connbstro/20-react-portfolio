@@ -9,7 +9,7 @@ import decisive from "../assets/desicive.png";
 
 const Works = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-white bg-[#0f141c]">
+    <div className="w-full md:h-screen text-white bg-[#0f141c]">
       <Navbar />
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 w-full flex justify-center items-center flex-col">
@@ -21,11 +21,11 @@ const Works = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div
             style={{ backgroundImage: `url(${socialNetwork})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
-              <span className=" text-lg font-bold text-white tracking-wider">
+              <span className="text-lg font-bold text-white tracking-wider">
                 Social Network Application
               </span>
               <p className="text-center">
@@ -47,7 +47,7 @@ const Works = () => {
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
-              <span className=" text-lg font-bold text-white tracking-wider">
+              <span className="text-lg font-bold text-white tracking-wider">
                 Coding Quiz
               </span>
               <p className="text-center">

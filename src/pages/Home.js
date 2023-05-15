@@ -1,6 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import me from "../assets/me.png";
+import leaf from "../assets/leaf.png";
 // import { Link } from "react-scroll";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
@@ -33,7 +33,7 @@ const Home = () => {
           </div>
           <div>
             <img
-              src={me}
+              src={leaf}
               alt="my profile"
               className="object-scale-down mx-auto rounded-2xl w-2/3"
             />
