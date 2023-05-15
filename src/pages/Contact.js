@@ -102,7 +102,9 @@ function Contact() {
           {/* Error field */}
           {errorMessage && (
             <div>
-              <p className="error-text text-red-500">{errorMessage}</p>
+              <p className="error-text text-lg text-[#F02E3A]">
+                {errorMessage}
+              </p>
             </div>
           )}
           <button

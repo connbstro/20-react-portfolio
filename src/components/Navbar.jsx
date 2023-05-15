@@ -26,27 +26,47 @@ const Navbar = () => {
       {/* menu */}
       <ul className="hidden md:flex gap-x-8">
         <li>
-          <Link to="/" smooth={true} duration={500}>
+          <Link className="hover:underline" to="/" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="/about" smooth={true} duration={500}>
+          <Link
+            className="hover:underline"
+            to="/about"
+            smooth={true}
+            duration={500}
+          >
             About
           </Link>
         </li>
         <li>
-          <Link to="/resume" smooth={true} duration={500}>
+          <Link
+            className="hover:underline"
+            to="/resume"
+            smooth={true}
+            duration={500}
+          >
             Resume
           </Link>
         </li>
         <li>
-          <Link to="/works" smooth={true} duration={500}>
+          <Link
+            className="hover:underline"
+            to="/works"
+            smooth={true}
+            duration={500}
+          >
             Projects
           </Link>
         </li>
         <li>
-          <Link to="/contact" smooth={true} duration={500}>
+          <Link
+            className="hover:underline"
+            to="/contact"
+            smooth={true}
+            duration={500}
+          >
             Contact
           </Link>
         </li>
