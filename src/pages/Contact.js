@@ -25,7 +25,7 @@ const Contact = () => {
             <p className="text-4xl inline border-b-4 border-[#fad1a1] text-white">
               Contact
             </p>
-            <p className="text-white py-4">Send me a message!</p>
+            <p className="text-white py-4">Send me a message or email me at --- connbstro56@yahoo.com</p>
           </div>
 
           <input
@@ -37,7 +37,7 @@ const Contact = () => {
             onChange={(e) => setName(e.target.value)}
           />
           <input
-            className="my-4 p-2 bg-white"
+            className="my-8 p-2 bg-white "
             type="email"
             placeholder="Email"
             name="email"

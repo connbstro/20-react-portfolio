@@ -34,7 +34,7 @@ const Works = () => {
               </p>
               <div className="pt-8 text-center">
                 <a href="https://drive.google.com/file/d/1zlA63-xYRwYCHDRY6ewAUhk2Wkxy6Xl3/view">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-md px-2 py-2 m-2 bg-white text-black hover:font-bold hover:px-4 hover:py-3 text-md hover:text-lg">
                     Video
                   </button>
                 </a>
@@ -56,7 +56,7 @@ const Works = () => {
               </p>
               <div className="pt-8 text-center">
                 <a href="https://connbstro.github.io/4-CodingQuiz/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-md px-2 py-2 m-2 bg-white text-black hover:font-bold hover:px-4 hover:py-3 text-md hover:text-lg">
                     Webpage
                   </button>
                 </a>
@@ -78,7 +78,7 @@ const Works = () => {
               </p>
               <div className="pt-8 text-center">
                 <a href="https://connbstro.github.io/6-WeatherDashboard/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-md px-2 py-2 m-2 bg-white text-black hover:font-bold hover:px-4 hover:py-3 text-md hover:text-lg">
                     Webpage
                   </button>
                 </a>
@@ -101,7 +101,7 @@ const Works = () => {
               </p>
               <div className="pt-8 text-center">
                 <a href="https://connbstro.github.io/05-workdayScheduler/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-md px-2 py-2 m-2 bg-white text-black hover:font-bold hover:px-4 hover:py-3 text-md hover:text-lg">
                     Webpage
                   </button>
                 </a>
@@ -123,7 +123,7 @@ const Works = () => {
               </p>
               <div className="pt-8 text-center">
                 <a href="https://appt-scheduler-app.herokuapp.com/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-md px-2 py-2 m-2 bg-white text-black hover:font-bold hover:px-4 hover:py-3 text-md hover:text-lg">
                     Webpage
                   </button>
                 </a>
@@ -141,18 +141,18 @@ const Works = () => {
                 Decisive
               </span>
               <p className="text-center">
-                A application that can help those who are more isolated go out if they want to.
+                A application that can help those who are more isolated go out
+                if they want to.
               </p>
               <div className="pt-8 text-center">
                 <a href="https://srichens.github.io/decisive/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-md px-2 py-2 m-2 bg-white text-black hover:font-bold hover:px-4 hover:py-3 text-md hover:text-lg">
                     Webpage
                   </button>
                 </a>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
