@@ -6,7 +6,7 @@
 
 ## **Website:**
 
-  <img width="1481" alt="Screenshot 2023-05-11 at 5 35 54 PM" src="https://github.com/connbstro/20-react-portfolio/assets/117555071/64d2ac81-ecbc-4b1b-9a22-281085cfaff5">
+  <img width="1510" alt="Screenshot 2023-05-15 at 1 42 04 PM" src="https://github.com/connbstro/20-react-portfolio/assets/117555071/60ddec32-6bf3-4070-93e8-c47141dfdbe6">
 
   <br/>
 
