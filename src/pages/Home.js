@@ -28,9 +28,6 @@ const Home = () => {
                 className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-gray-900 to-[#fad1a1] cursor-pointer"
               >
                 About Me
-                {/* <span className="group-hover:rotate-90 duration-300">
-                  <HiArrowNarrowRight size={25} className="ml-3" />
-                </span> */}
               </Link>
             </div>
           </div>
@@ -38,7 +35,7 @@ const Home = () => {
             <img
               src={me}
               alt="my profile"
-              className="rounded-2xl mx-auto w-2/3 md:w-full"
+              className="object-scale-down mx-auto rounded-2xl w-2/3"
             />
           </div>
         </div>

@@ -1,91 +1,66 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
-import { validateEmail } from "../utils/helpers";
+// import { validateEmail } from "../utils/helpers";
 
-function ContactForm() {
-  const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const [errorMessage, setErrorMessage] = useState("");
-  const { name, email, message } = formState;
+const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
-  // HANDLES FORM SUBMIT BUTTON
-  function handleSubmit(e) {
-    e.preventDefault();
-    console.log(formState);
-  }
-
-  // HANDLES CHANGES IN THE FORM INPUTS
-  function handleChange(e) {
-    if (e.target.name === "email") {
-      const isValid = validateEmail(e.target.value);
-      console.log(isValid);
-      if (!isValid) {
-        setErrorMessage("Your email is invalid.");
-      } else {
-        setErrorMessage("");
-      }
-    } else {
-      if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
-      } else {
-        setErrorMessage("");
-      }
-    }
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-    }
-  }
+  const handleSubmit = () => {
+    console.log("Name:", name);
+    console.log("Email", email);
+    console.log("Message", message);
+  };
 
   return (
-    <section className="sections contact">
+    <div>
       <Navbar />
-      <h2>Contact Me</h2>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        {/* NAME INPUT  */}
-        <div>
-          <label htmlFor="name">Name:</label>
-          <br />
-          <input
-            type="text"
-            name="name"
-            defaultValue={name}
-            onBlur={handleChange}
-          />
-        </div>
-        {/* EMAIL INPUT  */}
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <br />
-          <input
-            type="email"
-            name="email"
-            defaultValue={email}
-            onBlur={handleChange}
-          />
-        </div>
-        {/* MESSAGE TEXT AREA */}
-        <div>
-          <label htmlFor="message">Message:</label>
-          <br />
-          <textarea
-            name="message"
-            rows="5"
-            defaultValue={message}
-            onBlur={handleChange}
-          />
-        </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
+      <div
+        name="contact"
+        className="w-full h-screen bg-[#0f141c] flex justify-center items-center"
+      >
+        <div className="flex flex-col max-w-[600px] w-full">
+          <div className="pb-8 flex flex-col justify-center w-full h-full items-center">
+            <p className="text-4xl inline border-b-4 border-[#fad1a1] text-[#fad1a1]">
+              Contact
+            </p>
+            <p className="text-white py-4">Send me a message!</p>
           </div>
-        )}
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-  );
-}
 
-export default ContactForm;
+          <input
+            className="bg-white p-2"
+            type="text"
+            placeholder="Name"
+            name="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+          <input
+            className="my-4 p-2 bg-white"
+            type="email"
+            placeholder="Email"
+            name="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <textarea
+            className="bg-white p-2"
+            name="message"
+            rows="10"
+            placeholder="Message"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+          ></textarea>
+          <button
+            className="rounded-md text-white border-2 hover:bg-[#fad1a1] hover:border-[#fad1a1] hover:text-black px-4 py-3 my-8 mx-auto flex items-center"
+            type="submit"
+          >
+            Message Me
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default Contact;

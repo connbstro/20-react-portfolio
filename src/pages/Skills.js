@@ -13,16 +13,15 @@ const Skills = () => {
               Skills
             </p>
             <p className="py-4 text-2xl">
-              I want to learn and grow. Here's a list of technologies I've
-              worked with
+              Here's a list of technologies I've worked with
             </p>
           </div>
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
             <div className="hover:shadow-md hover:shadow-white hover:scale-110 hover:cursor-grab duration-500">
-              <p className="my-4">HTML</p>
+              <p className="my-4">HTML & CSS</p>
             </div>
             <div className="hover:shadow-md hover:shadow-white hover:scale-110 hover:cursor-grab duration-500">
-              <p className="my-4">CSS</p>
+              <p className="my-4">Bootstrap</p>
             </div>
             <div className="hover:shadow-md hover:shadow-white hover:scale-110 hover:cursor-grab duration-500">
               <p className="my-4">JavaScript</p>
@@ -40,16 +39,16 @@ const Skills = () => {
               <p className="my-4">MongoDB</p>
             </div>
             <div className="hover:shadow-md hover:shadow-white hover:scale-110 hover:cursor-grab duration-500">
-              <p className="my-4">Back-end/Front-end</p>
+              <p className="my-4">Insomnia</p>
             </div>
             <div className="hover:shadow-md hover:shadow-white hover:scale-110 hover:cursor-grab duration-500">
-              <p className="my-4">Tailwind</p>
+              <p className="my-4">Sequelize</p>
             </div>
             <div className="hover:scale-110 hover:shadow-md hover:shadow-white hover:cursor-grab duration-500">
               <p className="my-4">Node.js</p>
             </div>
             <div className="hover:shadow-md hover:shadow-white hover:scale-110 hover:cursor-grab duration-500">
-              <p className="my-4">Mongodb</p>
+              <p className="my-4">Tailwind</p>
             </div>
             <div className="hover:shadow-md hover:shadow-white hover:scale-110 hover:cursor-grab duration-500">
               <p className="my-4">MySQL</p>
