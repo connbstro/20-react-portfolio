@@ -4,7 +4,11 @@ import { skillList } from "../utils/skillList";
 
 const Skills = () => {
   return (
-    <div>
+    <div
+      name="skills"
+      id="skills"
+      className="w-full h-screen bg-[#0f141c] text-black-300"
+    >
       <Navbar />
       <div name="skills" className="w-full h-screen bg-[#0f141c] text-white">
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
