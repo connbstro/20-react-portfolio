@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers";
 import Navbar from "../components/Navbar";
 
-function ContactForm() {
+function Contact() {
   const [formState, setFormState] = useState({
     name: "",
     email: "",
@@ -39,17 +39,27 @@ function ContactForm() {
   }
 
   return (
-    <section className=" bg-[#0f141c] h-screen">
+    <section>
       <Navbar />
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
-        <h2 className="text-3xl font-bold text-white mb-6">Contact Me</h2>
+      <div
+        name="contact"
+        className="w-full h-screen bg-[#0f141c] flex justify-center items-center"
+      >
         <form
           className="flex flex-col max-w-[600px] w-full"
           onSubmit={handleSubmit}
         >
-          {/* NAME INPUT  */}
-          <div className="mb-4">
-            <label htmlFor="name" className="block text-white font-bold">
+          <div className="pb-8 flex flex-col justify-center w-full h-full items-center">
+            <p className="text-4xl inline border-b-4 border-[#fad1a1] text-white">
+              Contact
+            </p>
+            <p className="text-white py-4">
+              Send me a message or email me at --- connbstro56@yahoo.com
+            </p>
+          </div>
+          {/* Name input */}
+          <div>
+            <label htmlFor="name" className="text-white font-bold mb-4">
               Name:
             </label>
             <br />
@@ -58,36 +68,38 @@ function ContactForm() {
               name="name"
               defaultValue={name}
               onBlur={handleChange}
-              className="shadow appearance-none border rounded w-full py-2 text-black leading-tight focus:outline-none focus:shadow-outline"
+              className="mt-4 mb-4 p-2 shadow appearance-none border rounded w-full py-2 text-black leading-tight focus:outline-none focus:shadow-outline"
             />
           </div>
-          {/* EMAIL INPUT  */}
+          {/* Email input  */}
           <div className="">
-            <label className="text-white font-bold" htmlFor="email">
+            <label className="text-white font-bold mb-4" htmlFor="email">
               Email address:
             </label>
             <br />
             <input
-              className="mt-2 mb-6 p-2 bg-white w-full"
+              className="mt-4 mb-4 p-2 bg-white w-full"
               type="email"
               name="email"
               defaultValue={email}
               onBlur={handleChange}
             />
           </div>
-          {/* MESSAGE TEXT AREA */}
+          {/* Textarea field */}
           <div>
-            <label className="text-white font-bold" htmlFor="message">Message:</label>
+            <label className="text-white font-bold mb-4" htmlFor="message">
+              Message:
+            </label>
             <br />
             <textarea
-              className="w-full my-3"
+              className="mt-4 mb-4 w-full my-3"
               name="message"
               rows="5"
               defaultValue={message}
               onBlur={handleChange}
             />
           </div>
-          {/* Error */}
+          {/* Error field */}
           {errorMessage && (
             <div>
               <p className="error-text text-red-500">{errorMessage}</p>
@@ -105,4 +117,4 @@ function ContactForm() {
   );
 }
 
-export default ContactForm;
+export default Contact;
