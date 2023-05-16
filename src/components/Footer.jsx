@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
 const Footer = () => {
@@ -11,7 +8,7 @@ const Footer = () => {
       <span class="text-sm text-white sm:text-center">
         © copyright 2023 Connor Stroh
       </span>
-      <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-white sm:mt-0">
+      <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-white sm:mt-0 space-x-10">
         <li>
           <a
             className="flex justify-between items-center w-full"

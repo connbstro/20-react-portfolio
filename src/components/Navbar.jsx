@@ -10,7 +10,7 @@ import {
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import Header from "./Header";
 // import { Link } from "react-scroll";
 

@@ -5,10 +5,12 @@ import Contact from "./pages/Contact";
 import Works from "./components/Works";
 import Skills from "./pages/Skills";
 import Footer from "./components/Footer";
+// import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div>
+      {/* <Navbar /> */}
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
