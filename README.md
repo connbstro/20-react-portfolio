@@ -15,8 +15,8 @@ Not only does this platform provide an effective means to share my projects with
   <img width="1507" alt="Screenshot 2023-05-15 at 2 40 05 PM" src="https://github.com/connbstro/20-react-portfolio/assets/117555071/95117d90-3444-4807-a75a-af0f18f240f1">
   <br/>
 
-  <img width="1504" alt="Screenshot 2023-05-15 at 2 40 34 PM" src="https://github.com/connbstro/20-react-portfolio/assets/117555071/c144707b-c6c5-4458-a4e0-974f3720fce3">
-  <br/>
+![Screenshot 2023-05-16 at 5 49 38 PM](https://github.com/connbstro/20-react-portfolio/assets/117555071/2957fb3d-266b-4907-acd6-ed77a31477c6)
+<br/>
 
   <img width="1510" alt="Screenshot 2023-05-15 at 4 04 10 PM" src="https://github.com/connbstro/20-react-portfolio/assets/117555071/43bd4186-9c5d-4c9c-a592-700aa6ad3bfd">
 
