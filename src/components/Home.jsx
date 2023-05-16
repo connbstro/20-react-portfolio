@@ -3,10 +3,12 @@ import { Link} from "react-router-dom";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import me from "../assets/me.png";
 import { Link } from "react-scroll";
+import Navbar from "./Navbar";
 
 const Home = () => {
   return (
     <div name="home" className="h-screen w-full bg-[#0f141c]">
+      <Navbar />
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-[#fad1a1]">
