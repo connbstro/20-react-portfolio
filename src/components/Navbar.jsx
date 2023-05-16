@@ -12,7 +12,6 @@ const Navbar = () => {
       <div>
         <Header />
       </div>
-      {/* menu */}
       <ul className="hidden md:flex gap-x-8">
         <li>
           <Link className="hover:underline" to="/" smooth={true} duration={500}>
@@ -64,7 +63,6 @@ const Navbar = () => {
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
-      {/* Mobile menu */}
       <ul
         className={
           !nav
@@ -91,7 +89,12 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl">
           {" "}
-          <Link onClick={handleClick} to="/portfolio" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="/portfolio"
+            smooth={true}
+            duration={500}
+          >
             Portfolio
           </Link>
         </li>
