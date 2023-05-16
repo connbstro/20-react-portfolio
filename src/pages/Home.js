@@ -1,5 +1,4 @@
 import React from "react";
-// import { HiArrowNarrowRight } from "react-icons/hi";
 import leaf from "../assets/leaf.png";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Navbar from "../components/Navbar";

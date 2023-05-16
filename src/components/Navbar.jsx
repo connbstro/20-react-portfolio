@@ -1,18 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
-} from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-// import Footer from "./Footer";
+import { FaBars, FaTimes } from "react-icons/fa";
 import Header from "./Header";
-// import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

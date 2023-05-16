@@ -7,6 +7,7 @@ import workSchedule from "../assets/workDayScheduler.png";
 import scheduler from "../assets/scheduler.png";
 import decisive from "../assets/desicive.png";
 
+
 const Works = () => {
   return (
     <div className="w-full md:h-screen text-white bg-[#0f141c]">
@@ -21,7 +22,7 @@ const Works = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div
             style={{ backgroundImage: `url(${socialNetwork})` }}
-            className="group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="group container rounded-md flex justify-center items-center mx-auto front-img"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
@@ -43,7 +44,7 @@ const Works = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${codingQuiz})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto front-img"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
@@ -65,7 +66,7 @@ const Works = () => {
           </div>
           <div
             style={{ backgroundImage: `url(${weatherDashboard})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto front-img"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
@@ -88,7 +89,7 @@ const Works = () => {
 
           <div
             style={{ backgroundImage: `url(${workSchedule})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto front-img"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
@@ -111,7 +112,7 @@ const Works = () => {
 
           <div
             style={{ backgroundImage: `url(${scheduler})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto front-img"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
@@ -133,7 +134,7 @@ const Works = () => {
 
           <div
             style={{ backgroundImage: `url(${decisive})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto front-img"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
