@@ -42,11 +42,11 @@ const Navbar = () => {
         <li>
           <Link
             className="hover:underline"
-            to="/works"
+            to="/portfolio"
             smooth={true}
             duration={500}
           >
-            Projects
+            Portfolio
           </Link>
         </li>
         <li>
@@ -92,7 +92,7 @@ const Navbar = () => {
         <li className="py-6 text-4xl">
           {" "}
           <Link onClick={handleClick} to="/works" smooth={true} duration={500}>
-            Projects
+            Portfolio
           </Link>
         </li>
         <li className="py-6 text-4xl">
