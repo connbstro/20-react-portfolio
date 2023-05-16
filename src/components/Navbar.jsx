@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Header from "./Header";
 
