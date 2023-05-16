@@ -7,7 +7,7 @@ import workSchedule from "../assets/workDayScheduler.png";
 import scheduler from "../assets/scheduler.png";
 import decisive from "../assets/desicive.png";
 
-const Works = () => {
+const Portfolio = () => {
   return (
     <div className="w-full md:h-screen text-black bg-[#0f141c]">
       <Navbar />
@@ -25,7 +25,6 @@ const Works = () => {
             style={{ backgroundImage: `url(${socialNetwork})` }}
             className="group container rounded-md flex justify-center items-center mx-auto front-img"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className="text-lg font-bold text-black tracking-wider">
                 Social Network Application
@@ -47,7 +46,6 @@ const Works = () => {
             style={{ backgroundImage: `url(${codingQuiz})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto front-img"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className="text-lg font-bold text-black tracking-wider">
                 Coding Quiz
@@ -69,7 +67,6 @@ const Works = () => {
             style={{ backgroundImage: `url(${weatherDashboard})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto front-img"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className=" text-lg font-bold text-black tracking-wider">
                 Weather Dashboard
@@ -92,7 +89,6 @@ const Works = () => {
             style={{ backgroundImage: `url(${workSchedule})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto front-img"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className=" text-lg font-bold text-black tracking-wider">
                 Work day scheduler
@@ -115,7 +111,6 @@ const Works = () => {
             style={{ backgroundImage: `url(${scheduler})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto front-img"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className=" text-lg font-bold text-black tracking-wider">
                 Scheduler
@@ -137,7 +132,6 @@ const Works = () => {
             style={{ backgroundImage: `url(${decisive})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto front-img"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className=" text-lg font-bold text-black tracking-wider">
                 Decisive
@@ -160,4 +154,4 @@ const Works = () => {
     </div>
   );
 };
-export default Works;
+export default Portfolio;
