@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/20-react-portfolio/static/css/main.e0bd13dd.css",
-    "main.js": "/20-react-portfolio/static/js/main.99a89dc2.js",
-    "static/js/787.51972ac4.chunk.js": "/20-react-portfolio/static/js/787.51972ac4.chunk.js",
-    "static/media/scheduler.png": "/20-react-portfolio/static/media/scheduler.08c299b8a56b4392a89f.png",
-    "static/media/socialNetwork.png": "/20-react-portfolio/static/media/socialNetwork.13ac5f922541924ef956.png",
-    "static/media/weatherDashBoard.png": "/20-react-portfolio/static/media/weatherDashBoard.f474187d644ad7b15b24.png",
-    "static/media/desicive.png": "/20-react-portfolio/static/media/desicive.779dea096ab69914126d.png",
-    "static/media/leaf.png": "/20-react-portfolio/static/media/leaf.c9a8ad94af7564aa31b2.png",
-    "static/media/workDayScheduler.png": "/20-react-portfolio/static/media/workDayScheduler.0691e342d29543f47c1d.png",
-    "static/media/codingQuiz.png": "/20-react-portfolio/static/media/codingQuiz.dc3a51b876d8a33a57bc.png",
-    "index.html": "/20-react-portfolio/index.html",
-    "main.e0bd13dd.css.map": "/20-react-portfolio/static/css/main.e0bd13dd.css.map",
-    "main.99a89dc2.js.map": "/20-react-portfolio/static/js/main.99a89dc2.js.map",
-    "787.51972ac4.chunk.js.map": "/20-react-portfolio/static/js/787.51972ac4.chunk.js.map"
+    "main.css": "/static/css/main.e0bd13dd.css",
+    "main.js": "/static/js/main.85bbe467.js",
+    "static/js/787.51972ac4.chunk.js": "/static/js/787.51972ac4.chunk.js",
+    "static/media/scheduler.png": "/static/media/scheduler.08c299b8a56b4392a89f.png",
+    "static/media/socialNetwork.png": "/static/media/socialNetwork.13ac5f922541924ef956.png",
+    "static/media/weatherDashBoard.png": "/static/media/weatherDashBoard.f474187d644ad7b15b24.png",
+    "static/media/desicive.png": "/static/media/desicive.779dea096ab69914126d.png",
+    "static/media/leaf.png": "/static/media/leaf.c9a8ad94af7564aa31b2.png",
+    "static/media/workDayScheduler.png": "/static/media/workDayScheduler.0691e342d29543f47c1d.png",
+    "static/media/codingQuiz.png": "/static/media/codingQuiz.dc3a51b876d8a33a57bc.png",
+    "index.html": "/index.html",
+    "main.e0bd13dd.css.map": "/static/css/main.e0bd13dd.css.map",
+    "main.85bbe467.js.map": "/static/js/main.85bbe467.js.map",
+    "787.51972ac4.chunk.js.map": "/static/js/787.51972ac4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0bd13dd.css",
-    "static/js/main.99a89dc2.js"
+    "static/js/main.85bbe467.js"
   ]
 }
