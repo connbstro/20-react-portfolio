@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <BrowserRouter basename="https://connbstro.github.io/20-react-portfolio/">
+      <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -22,4 +22,5 @@ function App() {
     </div>
   );
 }
+
 export default App;
