@@ -10,7 +10,7 @@ Not only does this platform provide an effective means to share my projects with
 
 ## **Website:**
 
-()
+(https://connbstro.github.io/20-react-portfolio/)
 
   <img width="1507" alt="Screenshot 2023-05-15 at 2 40 05 PM" src="https://github.com/connbstro/20-react-portfolio/assets/117555071/95117d90-3444-4807-a75a-af0f18f240f1">
   <br/>
@@ -30,12 +30,6 @@ Not only does this platform provide an effective means to share my projects with
 ### [Description](#Description)
 
 ### [Installation](#Installation)
-
-### [Usage](#Usage)
-
-### [Contributors](#Contributors)
-
-### [Tests](#Tests)
 
 ### [Questions](#Questions)
 
@@ -58,17 +52,7 @@ Not only does this platform provide an effective means to share my projects with
 
 ## **Installation**
 
-  <br/>
-  
-  ## **Usage**
-  
-  <br/>
-  
-  ## **Contributors**
-
-  <br/>
-
-## **Tests**
+To access the application, users can simply visit the deployed Github pages site. Once the webpage loads, users will be greeted with a homepage and a navigation bar. This navigation bar allows users to explore different sections of the site, including my work, resume, and a contact form for reaching out, if desired.
 
   <br/>
 
