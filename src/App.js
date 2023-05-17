@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <BrowserRouter basename="">
+      <BrowserRouter basename="https://connbstro.github.io/20-react-portfolio/">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
