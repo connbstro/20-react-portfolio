@@ -36,7 +36,7 @@ const Portfolio = () => {
               <div className="pt-8 text-center">
                 <a href="https://mash-game-project.herokuapp.com/">
                   <button className="text-center rounded-md px-2 py-2 m-2 bg-white text-black hover:font-bold hover:px-4 hover:py-3 text-md hover:text-lg hover:border-black hover:border-2">
-                    Video
+                    Website
                   </button>
                 </a>
               </div>
