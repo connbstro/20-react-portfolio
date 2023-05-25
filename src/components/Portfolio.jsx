@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import codingQuiz from "../assets/codingQuiz.png";
-import socialNetwork from "../assets/socialNetwork.png";
+import Screen from "../assets/Screenshot 2023-05-25 at 5.16.13 PM.png";
 import weatherDashboard from "../assets/weatherDashBoard.png";
 import workSchedule from "../assets/workDayScheduler.png";
 import scheduler from "../assets/scheduler.png";
@@ -22,7 +22,7 @@ const Portfolio = () => {
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div
-            style={{ backgroundImage: `url(${socialNetwork})` }}
+            style={{ backgroundImage: `url(${Screen})` }}
             className="group container rounded-md flex justify-center items-center mx-auto front-img"
           >
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
@@ -34,7 +34,7 @@ const Portfolio = () => {
                 friends thoughts, and create a friend list.
               </p>
               <div className="pt-8 text-center">
-                <a href="https://drive.google.com/file/d/1zlA63-xYRwYCHDRY6ewAUhk2Wkxy6Xl3/view">
+                <a href="https://mash-game-project.herokuapp.com/">
                   <button className="text-center rounded-md px-2 py-2 m-2 bg-white text-black hover:font-bold hover:px-4 hover:py-3 text-md hover:text-lg hover:border-black hover:border-2">
                     Video
                   </button>
