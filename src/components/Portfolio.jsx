@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import codingQuiz from "../assets/codingQuiz.png";
-import Screen from "../assets/Screenshot 2023-05-25 at 5.16.13 PM.png";
+import Screen from "../assets/mash.png";
 import weatherDashboard from "../assets/weatherDashBoard.png";
 import workSchedule from "../assets/workDayScheduler.png";
 import scheduler from "../assets/scheduler.png";
