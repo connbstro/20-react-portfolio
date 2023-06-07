@@ -35,6 +35,16 @@ const Navbar = () => {
             smooth={true}
             duration={500}
           >
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link
+            className="hover:underline"
+            to="/skills"
+            smooth={true}
+            duration={500}
+          >
             Resume
           </Link>
         </li>
